@@ -3,7 +3,7 @@ import writeFile from "./WriteFile.js";
 import appendFile from "./AppendFile.js";
 import deleteFile from "./DeleteFile.js";
 
-const filename = "deneme.txt";
+const filename = "employee.json";
 
 /** WRİTE FILE */
 // writeFile(filename, '{"name":"employee 1","salary":"2000"}');
@@ -12,7 +12,7 @@ const filename = "deneme.txt";
 readFile(filename);
 
 /** APPEND FILE */
-//  appendFile(filename, '{"name":"Employee 2","salary":"2500"}');
+ appendFile(filename, '{"name":"Employee 2","salary":"2500"}');
 
 /** DELETE FILE */
 // deleteFile(filename);
